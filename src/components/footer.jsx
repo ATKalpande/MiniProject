@@ -112,7 +112,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className={styles.copy}>© 2022 Titan Company Limited. All Rights Reserved.</div>
+      <div className={styles.copy}>© 2024 Camu Company Limited. All Rights Reserved.</div>
 
 
       {/* bottom container */}

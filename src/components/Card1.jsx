@@ -1,16 +1,20 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom'
 
 function Card1(props) {
   return (
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant="top" src={props.src} />
+      <Card.Img variant="top" width={"286px"} height={"381px"}  src={props.src} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
-         {props.description}
+         {props.email}
         </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
+        <Card.Text>
+         {props.phone}
+        </Card.Text>
+        <Button variant="primary"><Link to="/pages/courses/Pgdac"></Link></Button>
       </Card.Body>
     </Card>
   );

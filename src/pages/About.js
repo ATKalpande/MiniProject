@@ -1,7 +1,5 @@
 import React from "react";
 import { Header } from "../components/Header";
-import { Navigation } from "../components/Navigation";
-import { Footer } from "../components/footer";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -10,7 +8,7 @@ import Card from "../components/Card1";
 const About = () => {
   return (
     <div>
-      <Navigation />
+   
       <Header title="This is About Page" />
       <Container className="">
         <h1>Camu</h1>
@@ -31,15 +29,15 @@ const About = () => {
 <Container>
   <Row>
     <Col>
-    <Card src="assets/img/img1.jpeg" title="PersonName" description="Person-info"/>
+    <Card src="assets/img/mansi.jpeg" title="Mansi Agarwal" email="mansi@gmail.com" phone="7954646"/>
     </Col>
-    <Col><Card src="assets/img/img1.jpeg" title="PersonName" description="Person-info"/>
+    <Col> <Card src="assets/img/akash.jpeg" title="Akash Kalpande" email="akash@gmail.com" phone="7954646"/>
  </Col>
-    <Col><Card src="assets/img/img1.jpeg" title="PersonName" description="Person-info"/>
+    <Col> <Card src="assets/img/shubham.jpeg" title="Shubham" email="shubham@gmail.com" phone="7954646"/>
  </Col>
   </Row>
 </Container>
-      <Footer />
+
     </div>
   );
 };
