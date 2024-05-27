@@ -1,5 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 function CourseCard(props) {
  function handleClick(){
@@ -20,7 +21,7 @@ function CourseCard(props) {
         <Card.Text className=" text-bold">
         {props.fees}
           </Card.Text>        
-        {/* <Button  variant="primary">Enroll Course</Button> */}
+        <Button  variant="primary"><Link to="/stdreg" style={{ color: 'inherit', textDecoration: 'none' }}>Enroll Course</Link></Button>
       </Card.Body>
     </Card>
   );

@@ -1,10 +1,10 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom'
-
+import "./Card1.css"
 function Card1(props) {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card className="c" style={{ width: '18rem' }}>
       <Card.Img variant="top" width={"286px"} height={"381px"}  src={props.src} />
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>

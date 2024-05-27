@@ -8,36 +8,49 @@ import Card from "../components/Card1";
 const About = () => {
   return (
     <div>
-   
-      <Header title="This is About Page" />
-      <Container className="">
+      {/* <Header title="This is About Page" /> */}
+      <Container className="text-center p-3 underline">
         <h1>Camu</h1>
 
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. The point of
-          using Lorem Ipsum is that it has a more-or-less normal distribution of
-          letters, as opposed to using 'Content here, content here', making it
-          look like readable English. Many desktop publishing packages and web
-          page editors now use Lorem Ipsum as their default model text, and a
-          search for 'lorem ipsum' will uncover many web sites still in their
-          infancy. Various versions have evolved over the years, sometimes by
-          accident, sometimes on purpose (injected humour and the like).
+          We help Institutions across the world upgrade their education system
+          and bring students closer to their career goals. Camu offers the Best
+          in Class School and College Management system. We’re one of the most
+          Comprehensive college and school ERP systems available in the market.
+          Take a look at what some of our clients have to say
         </p>
       </Container>
 
-<Container>
-  <Row>
-    <Col>
-    <Card src="assets/img/mansi.jpeg" title="Mansi Agarwal" email="mansi@gmail.com" phone="7954646"/>
-    </Col>
-    <Col> <Card src="assets/img/akash.jpeg" title="Akash Kalpande" email="akash@gmail.com" phone="7954646"/>
- </Col>
-    <Col> <Card src="assets/img/shubham.jpeg" title="Shubham" email="shubham@gmail.com" phone="7954646"/>
- </Col>
-  </Row>
-</Container>
-
+      <Container>
+        <Row>
+          <Col>
+            <Card
+              src="assets/img/mansi.jpeg"
+              title="Mansi Agarwal"
+              email="mansisinghal63@gmail.com"
+              phone="+91 7015545877"
+            />
+          </Col>
+          <Col>
+            {" "}
+            <Card
+              src="assets/img/akash.jpeg"
+              title="Akash Kalpande"
+              email="akashkalpande2020@gmail.com"
+              phone="+91 7620127464"
+            />
+          </Col>
+          <Col>
+            {" "}
+            <Card
+              src="assets/img/shubham.jpeg"
+              title="Shubham"
+              email="shubhamcharthad5050@gmail.com"
+              phone="+91 7249044878"
+            />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };

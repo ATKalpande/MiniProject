@@ -27,7 +27,7 @@ Post Graduate Diploma In Advanced Computing"
             
 
             />
-            <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button>
+            {/* <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button> */}
           </Col>
           <Col className="border m-2">
             <CourseCard
@@ -38,7 +38,7 @@ Post Graduate Diploma in Big Data Analytics"
               fees="1,00,000 ₹"
               
             />
-            <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button>
+            {/* <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button> */}
 
           </Col>
           <Col className="border m-2 ">
@@ -49,7 +49,7 @@ Post Graduate Diploma in Artificial Intelligence"
               duration="6 Month"
               fees="1,00,000 ₹"
             />
-            <button  className="btn m-3 btn-secondary"><Link to="/Contact">Enroll</Link></button>
+            {/* <button  className="btn m-3 btn-secondary"><Link to="/Contact">Enroll</Link></button> */}
 
           </Col>
           <Col  className="border  m-2">
@@ -60,7 +60,7 @@ Post Graduate Diploma in Cyber Security & Forensics"
               duration="6 Month"
               fees="1,00,000 ₹"
             />
-            <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button>
+            {/* <button onClick={handleClick} className="btn m-3 btn-secondary">Click</button> */}
 
           </Col>
 

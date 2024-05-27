@@ -23,23 +23,23 @@ export function Navigation(){
 
          <Navbar expand="lg" className="bg-dark text-white flex justify " data-bs-theme="dark">
       <Container>
-        <Navbar.Brand  className=""><Link className="text-none" to="/">Logo</Link></Navbar.Brand>
+        <Navbar.Brand  className=""><Link className="text-none" to="/home">CAMU</Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto ">
     
             <Nav.Link ><Link id={styles.l1} to="/home">Home</Link></Nav.Link> 
         
-        <Nav.Link><Link to="/about">About</Link></Nav.Link> 
-        <Nav.Link><Link to="/contact">ContactUs</Link></Nav.Link> 
-        <Nav.Link><Link to="/feedback">Feedback</Link></Nav.Link> 
-        <Nav.Link><Link to="/course">Courses</Link></Nav.Link> 
+        <Nav.Link><Link id={styles.l1}  to="/about">About</Link></Nav.Link> 
+        <Nav.Link><Link id={styles.l1}  to="/contact">ContactUs</Link></Nav.Link> 
+        <Nav.Link><Link id={styles.l1}  to="/feedback">Feedback</Link></Nav.Link> 
+        <Nav.Link><Link id={styles.l1}  to="/course">Courses</Link></Nav.Link> 
         
           </Nav>
 
 <Nav>
           <Nav.Link>
-            <Button type="submit"   onClick={handleLogout} varient="priimary">Logout</Button>
+            <Button type="submit"   onClick={handleLogout} varient="primary">Logout</Button>
             {/* <Link to="#">Logout</Link>
              */}
             </Nav.Link>

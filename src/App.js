@@ -14,6 +14,7 @@ import { Footer } from './components/Footer';
 import { StudentReg } from './pages/StdRegistered';
 import { StudentList } from './pages/StdList';
 import { PrivateRoute } from './components/privateRoute';
+import { StudentEditForm } from './pages/StudentEditForm';
 
 
 
@@ -36,6 +37,7 @@ function App() {
   <Route path="/feedback" element={<Feedback/>} />
   <Route path="/stdreg" element={<StudentReg/>} />
   <Route path="/stdlist" element={<StudentList/>} />
+  <Route path="/edit-student/:id" element={<StudentEditForm/>} />
 </Route>
       {/* <PrivateRoute path="/home" element={< Home />} />
 

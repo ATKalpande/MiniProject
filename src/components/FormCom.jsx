@@ -84,7 +84,7 @@ function FormComp() {
         <Form.Check type="checkbox" label="All the above conditions are true and valid" />
       </Form.Group>
 
-      <Button variant="primary" type="submit">
+      <Button  variant="primary" type="submit">
         Submit
       </Button>
     </Form>
